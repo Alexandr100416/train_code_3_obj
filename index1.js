@@ -20,7 +20,7 @@ const changeOrAddKeyAndValue = function (obj) {
 }
 const objWithNewElem = changeOrAddKeyAndValue({checkKey: "mood", newValue: "happy", newObj: user});
 const objWithNewHobbyValue = changeOrAddKeyAndValue({ checkKey: "hobby", newValue: "skydiving", newObj: objWithNewElem });
-const objWithNewPremiumValue = console.log(changeOrAddKeyAndValue({ checkKey: "premium", newValue: false, newObj: objWithNewHobby }));
+const objWithNewPremiumValue = console.log(changeOrAddKeyAndValue({ checkKey: "premium", newValue: false, newObj: objWithNewHobbyValue }));
 
 
 
