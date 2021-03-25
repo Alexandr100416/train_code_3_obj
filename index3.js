@@ -5,7 +5,7 @@ const findBestEmployee = function (employees) {
     const maxValue = Math.max(...checkValues);
     const checkKeys = Object.keys(employees);
     const findBestEmployer = checkValues.indexOf(maxValue);
-    return checkKeys[findBestEmployer]
+    return checkKeys[findBestEmployer];
 };
 
 
